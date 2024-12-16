@@ -1,0 +1,17 @@
+<inkscape-extension xmlns="http://www.inkscape.org/namespace/inkscape/extension">
+  <name>Fix A4</name>
+  <id>org.inkscape.effect.Fix_A4</id>
+ <!----> <icon>org.inkscape.effect.Fix_A4.svg</icon>
+  <effect>
+    <effects-menu><submenu name="Raster"></submenu></effects-menu>
+    <object-type>image</object-type>
+    <object-type>path</object-type>
+
+    <menu-tip>Straightening of an A4 format. [Select an image and a quadrilateral]</menu-tip>
+  </effect>
+  <script>
+     <command interpreter="python" reldir="extensions">Fix_A4.py</command>
+  </script>
+</inkscape-extension>
+
+
